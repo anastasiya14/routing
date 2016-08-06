@@ -31,7 +31,7 @@ public class JSONtoDataImpl implements JSONtoData {
 
             // New way to get database
             MongoDatabase db = mongoClient.getDatabase("moto");
-            MongoCollection<Document> collection = db.getCollection("mesh_test");
+            MongoCollection<Document> collection = db.getCollection("mesh_test6");
 
             //Query MongoDB
             MongoCursor<Document> cursor = (MongoCursor<Document>) collection.find()
