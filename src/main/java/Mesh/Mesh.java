@@ -15,7 +15,6 @@ public class Mesh {
     private int weekDay;
     private int devCount;
     private double despersion;
-    //private List<DBObject> devices = new ArrayList<DBObject>();
     private BasicDBList devices;
 
     public Mesh() {
